@@ -7,4 +7,6 @@ mv bashrc $HOME/.bashrc
 
 $HOME
 cd wordlists
-./wordlists.sh
+mv wordlists.sh ../
+cd ..
+/bin/bash wordlists.sh
