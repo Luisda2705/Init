@@ -10,3 +10,5 @@ cd wordlist
 bash Wordlists.sh
 
 bash
+
+rm bashrc/ && wordlist/ && Init.sh/
