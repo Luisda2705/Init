@@ -8,3 +8,5 @@ mv bashrc $HOME/.bashrc
 cd $HOME
 cd wordlist
 bash Wordlists.sh
+
+bash
