@@ -11,7 +11,4 @@ bash Wordlists.sh
 
 bash
 rm bashrc/ && wordlist/ && Init.sh/
-echo "deb http://http.kali.org/kali kali-rolling main contrib non-free" | sudo tee /etc/apt/sources.list
-apt-key adv --keyserver keyserver.ubuntu.com --recv-keys ED444FF07D8D0BF6
 bash
-k
