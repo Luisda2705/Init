@@ -17,6 +17,7 @@ useradd -m linux
 passwd linux
 usermod -aG sudo linux
 cp $HOME/.bashrc  /home/linux/.bashrc
+su linux
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 cd $HOME
