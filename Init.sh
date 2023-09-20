@@ -10,11 +10,9 @@ cd $HOME
 cd wordlist
 bash Wordlists.sh
 
-bash
-$HOME
+cd $HOME
 rm bashrc/ && wordlist/ && Init/
 
-#Hombrew
 useradd -m linux
 passwd linux
 usermod -aG sudo linux
