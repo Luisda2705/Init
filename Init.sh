@@ -13,6 +13,7 @@ bash
 $HOME
 rm bashrc/ && wordlist/ && Init/
 
+#Hombrew
 useradd -m linux
 passwd linux
 usermod -aG sudo linux
