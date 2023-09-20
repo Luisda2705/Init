@@ -1,5 +1,5 @@
 cd $HOME
-git clone https://github.com/Luisda2705/Bashrc.git
+git clone https://github.com/Luisda2705/bashrc.git
 git clone https://github.com/Luisda2705/wordlist.git
 
 cd bashrc
@@ -10,4 +10,11 @@ cd wordlist
 bash Wordlists.sh
 
 bash
-rm bashrc/ && wordlist/ && Init.sh/
+$HOME
+rm bashrc/ && wordlist/ && Init/
+
+useradd -m linux
+passwd linux
+usermod -aG sudo linux
+cp $HOME/.bashrc  /home/linux/.bashrc
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
