@@ -16,6 +16,7 @@ rm bashrc/ && wordlist/ && Init/
 useradd -m linux
 passwd linux
 usermod -aG sudo linux
+
 cp $HOME/.bashrc  /home/linux/.bashrc
 su linux
 cd $HOME
@@ -24,3 +25,6 @@ cd $HOME
 cd $HOME
 cd Tools/
 bash Tools.sh
+
+su linux
+chsh
