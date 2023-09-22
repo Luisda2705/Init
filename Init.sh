@@ -22,6 +22,3 @@ cp $HOME/.bashrc  /home/linux/.bashrc
 cd $HOME
 cd Tools/
 bash Tools.sh
-
-su linux
-chsh
