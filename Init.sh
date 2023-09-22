@@ -18,9 +18,6 @@ passwd linux
 usermod -aG sudo linux
 
 cp $HOME/.bashrc  /home/linux/.bashrc
-su linux
-cd $HOME
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 cd $HOME
 cd Tools/
