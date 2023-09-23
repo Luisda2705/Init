@@ -1,5 +1,5 @@
 cd $HOME
-git clone https://github.com/Luisda2705/bashrc.git
+git clone https://github.com/Luisda2705/Bashrc.git
 git clone https://github.com/Luisda2705/wordlist.git
 git clone https://github.com/Luisda2705/Tools.git
 
