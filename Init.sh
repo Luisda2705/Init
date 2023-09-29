@@ -20,8 +20,5 @@ cd $HOME
 cd Tools/
 /bin/bash Tools.sh
 
-su ln 
-/bin/bash InstallBrew.sh
-
 cd $HOME
 rm bashrc/ && wordlist/ && Init/ && Tools/
