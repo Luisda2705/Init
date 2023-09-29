@@ -10,11 +10,11 @@ cd $HOME
 cd wordlist
 bash Wordlists.sh
 
-useradd -m ln
-passwd ln
-usermod -aG sudo ln
+useradd -m lnx
+passwd lnx
+usermod -aG sudo lnx
 
-cp $HOME/.bashrc  /home/ln/.bashrc
+cp $HOME/.bashrc  /home/lnx/.bashrc
 
 cd $HOME
 cd Tools/
