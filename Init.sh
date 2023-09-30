@@ -20,5 +20,7 @@ cd $HOME
 cd Tools/
 /bin/bash Tools.sh
 
+bash
+
 cd $HOME
 rm bashrc/ && Wordlist/ && Init/ && Tools/
