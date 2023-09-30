@@ -7,7 +7,7 @@ cd bashrc
 cp bashrc $HOME/.bashrc
 
 cd $HOME
-cd wordlist
+cd Wordlist
 bash Wordlists.sh
 
 useradd -m lnx
