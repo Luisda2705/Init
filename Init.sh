@@ -1,6 +1,6 @@
 cd $HOME
 git clone https://github.com/Luisda2705/bashrc.git
-git clone https://github.com/Luisda2705/wordlist.git
+git clone https://github.com/Luisda2705/Wordlist.git
 git clone https://github.com/Luisda2705/Tools.git
 
 cd bashrc
@@ -21,4 +21,4 @@ cd Tools/
 /bin/bash Tools.sh
 
 cd $HOME
-rm bashrc/ && wordlist/ && Init/ && Tools/
+rm bashrc/ && Wordlist/ && Init/ && Tools/
