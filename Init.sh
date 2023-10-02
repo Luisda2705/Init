@@ -16,6 +16,8 @@ usermod -aG sudo lnx
 
 cp $HOME/.bashrc  /home/lnx/.bashrc
 
+bash
+
 cd $HOME
 cd Tools/
 /bin/bash Tools.sh
