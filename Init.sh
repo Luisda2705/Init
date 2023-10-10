@@ -10,10 +10,6 @@ cd $HOME
 cd Wordlist
 bash Wordlists.sh
 
-useradd -m lnx
-passwd lnx
-usermod -aG sudo lnx
-
 cp $HOME/.bashrc  /home/lnx/.bashrc
 
 cd $HOME
@@ -21,6 +17,10 @@ cd Tools/
 /bin/bash Tools.sh
 
 bash
+
+useradd -m lnx
+passwd lnx
+usermod -aG sudo lnx
 
 cd $HOME
 rm bashrc/ && Wordlist/ && Init/ && Tools/
