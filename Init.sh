@@ -16,8 +16,6 @@ cd $HOME
 cd Tools/
 /bin/bash Tools.sh
 
-bash
-
 useradd -m lnx
 passwd lnx
 usermod -aG sudo lnx
