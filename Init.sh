@@ -19,6 +19,7 @@ cd Tools/
 cd $HOME
 rm bashrc/ && Wordlist/ && Init/ && Tools/
 
+
 useradd -m lnx
 passwd lnx
 usermod -aG sudo lnx
