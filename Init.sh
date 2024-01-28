@@ -6,16 +6,15 @@ git clone https://github.com/Luisda2705/Tools.git
 cd bashrc
 cp bashrc $HOME/.bashrc
 
-cp $HOME/.bashrc  /home/lnx/.bashrc
-
 cd $HOME
 cd Tools/
 /bin/bash Tools.sh
 
-
 useradd -m lx
 passwd lx
 usermod -aG sudo lx
+
+cp $HOME/.bashrc  /home/lx/.bashrc
 
 cd $HOME
 cd Wordlist
