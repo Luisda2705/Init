@@ -25,4 +25,4 @@ cd Wordlist
 /bin/bash Wordlists.sh
 
 cd $HOME
-rm bashrc/ && Wordlist/ && Init/ && Tools/
+rm bashrc/ && Wordlist/ && Init/ && Tools/ 
