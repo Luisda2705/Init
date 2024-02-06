@@ -4,11 +4,11 @@ git clone https://github.com/Luisda2705/Wordlist.git
 git clone https://github.com/Luisda2705/Tools.git
 git clone https://github.com/Luisda2705/Configs.git
 
-cp $HOME/bashrc/bashrc $HOME/.bashrc
-
 useradd -m lx
 passwd lx
 usermod -aG sudo lx
+
+cp $HOME/bashrc/bashrc $HOME/.bashrc
 
 cp $HOME/.bashrc  /home/lx/.bashrc
 
@@ -18,5 +18,4 @@ cp $HOME/.bashrc  /home/lx/.bashrc
 
 /bin/bash $HOME/Wordlist/Wordlists.sh
 
-cd $HOME
-rm bashrc/ && Wordlist/ && Init/ && Tools/ 
+cd $HOME && rm bashrc/ && Wordlist/ && Init/ && Tools/ 
