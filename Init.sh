@@ -16,3 +16,5 @@ cp $HOME/bashrc/bashrc /home/lx/.bashrc
 /bin/bash $HOME/Wordlist/Wordlists.sh
 
 cd $HOME && rm bashrc/ && Wordlist/ && Init/ && Tools/ 
+
+bash
