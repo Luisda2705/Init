@@ -11,7 +11,6 @@ usermod -aG sudo lx
 
 cp $HOME/bashrc/bashrc $HOME/.bashrc
 cp $HOME/bashrc/bashrc /home/lx/.bashrc
-cp $HOME/Tools/nanorc /etc/.nanorc
 
 /bin/bash $HOME/Tools/Tools.sh
 
