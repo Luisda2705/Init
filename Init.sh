@@ -12,7 +12,7 @@ usermod -aG sudo lx
 cp $HOME/bashrc/bashrc $HOME/.bashrc
 cp $HOME/bashrc/bashrc /home/lx/.bashrc
 
-/bin/bash $HOME/Tools/Tools.sh
+sh $HOME/Tools/Tools.sh
 
 cd $HOME && rm bashrc/ && Wordlist/ && Init/ && Tools/ 
 
